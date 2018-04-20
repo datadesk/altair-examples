@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 jupyterlab = "==0.32.0"
 altair = "==2.0.0rc2"
+vega_datasets = {git = "https://github.com/altair-viz/vega_datasets.git", editable = true, ref = "HEAD"}
 
 [dev-packages]
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "26e30d1db8ffebd012d1a2f4e860dca7a2d7107fc5c7d902c3555284f21ba36f"
+            "sha256": "5af5f4efb63e8f0baf184cdfcd05316cc748aa297e7079c4cc93bf2ff2469746"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -437,10 +437,9 @@
             "version": "==4.3.2"
         },
         "vega-datasets": {
-            "hashes": [
-                "sha256:e3a6cd21730b75d4c03f22c653cda5ef5dd64bbd4e5cca46be3ddc8379541623"
-            ],
-            "version": "==0.4.1"
+            "editable": true,
+            "git": "https://github.com/altair-viz/vega_datasets.git",
+            "ref": "HEAD"
         },
         "wcwidth": {
             "hashes": [
