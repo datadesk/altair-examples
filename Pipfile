@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "==0.32.0"
+altair = "==2.0.0rc2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6.4"
